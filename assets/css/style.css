@@ -4,27 +4,46 @@
   box-sizing: border-box;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 body{
   position: relative;
-  background-color: blanchedalmond;
+  background-color: azure;
 }
 
 /*
 header
 */
+
 header{
-  background-image: -webkit-linear-gradient(rgb(143, 143, 143), white, rgba(255, 255, 255, 0.877), rgba(255, 255, 255, 0.203));
-  height:10vh;
-  position:absolute;
-  top:0;
   width:100vw;
+  height:10vh;
+  position: absolute;
+  top: 0;
+}
+
+header.transparent-gradient{
+  background-image: -webkit-linear-gradient(rgb(143, 143, 143), white, rgba(255, 255, 255, 0.877), rgba(255, 255, 255, 0.203));
+  
 }
 .jdw-nav,.jdw-nav-brand, .jdw-nav-menu,.jdw-nav-button{
   height:100%;
   padding:5px;
+  
 }
+.jdw-nav{
+  background-color: rgb(77, 77, 77);
+  color:rgba(255, 255, 255, 0.748);
+  }
 
-#logo-img{
+.jdw-nav-brand{
+  display:flex;
+  align-items: center;
+}
+#brand-img{
+  height:100%;
+ margin-right: 1vw;
+}
+#brand-name{
   height:100%;
  margin-right: 1vw;
 }
@@ -33,14 +52,11 @@ header{
 /*
 main
 */
-
-main{
-  overflow-y: auto;
+main{ 
   height:100vh;
-  margin : 0 auto;
-  padding :10vh 5vw;
+  padding : 10vh 5px;
+  overflow-y: auto;
 }
-
 
 /*
 footer
@@ -48,10 +64,16 @@ footer
 
 footer{
   height:10vh;
+  width:100vw;
   display: flex;
+  padding:3px;
   flex-direction: column-reverse;
-  background-image: -webkit-linear-gradient( rgba(255, 255, 255, 0.265),rgba(255, 255, 255, 0.543),white, rgb(143, 143, 143));
   position: absolute;
   bottom:0;
-  width:100vw;
+}
+
+/*utility*/
+.bg-body-dark{
+  background-color: black;
+  color: white;
 }

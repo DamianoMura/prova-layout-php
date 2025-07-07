@@ -1,0 +1,1 @@
+// console.log(document.getElementById("brand-img").attributes.item(0).nodeValue)
