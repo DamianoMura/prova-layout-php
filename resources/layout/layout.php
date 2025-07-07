@@ -1,4 +1,4 @@
 <?php
 include 'header.html';
-include 'main.html';
+include 'main.php';
 include 'footer.html';

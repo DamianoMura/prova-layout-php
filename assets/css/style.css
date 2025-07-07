@@ -13,21 +13,22 @@ body{
 header
 */
 header{
-  background-image: -webkit-linear-gradient(rgb(143, 143, 143), white, rgba(255, 255, 255, 0.877), rgba(255, 255, 255, 0.723));
+  background-image: -webkit-linear-gradient(rgb(143, 143, 143), white, rgba(255, 255, 255, 0.877), rgba(255, 255, 255, 0.203));
   height:10vh;
   position:absolute;
   top:0;
   width:100vw;
 }
-
-.logo{
-  height:10vh;
- 
-}
-
-.logo img{
+.jdw-nav,.jdw-nav-brand, .jdw-nav-menu,.jdw-nav-button{
   height:100%;
+  padding:5px;
 }
+
+#logo-img{
+  height:100%;
+ margin-right: 1vw;
+}
+
 
 /*
 main
@@ -36,7 +37,8 @@ main
 main{
   overflow-y: auto;
   height:100vh;
-  
+  margin : 0 auto;
+  padding :10vh 5vw;
 }
 
 
