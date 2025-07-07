@@ -34,6 +34,9 @@ header.transparent-gradient{
 .jdw-nav{
   background-color: rgb(77, 77, 77);
   color:rgba(255, 255, 255, 0.748);
+  display:flex;
+  justify-content: space-between;
+  align-content: center;
   }
 
 .jdw-nav-brand{
@@ -48,8 +51,33 @@ header.transparent-gradient{
   height:100%;
  margin-right:5px;
 }
-
-
+.jdw-nav-menu{
+  display: flex;
+  align-items: center;
+}
+.jdw-nav-button{
+  position: relative;
+}
+.jdw-nav-hamburger{
+  height:60px;
+  padding:5px;
+  color: rgba(255, 255, 255, 0.748);
+  
+}
+.jdw-nav-toggle{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(144, 144, 144);
+  position:absolute;
+  top:60px;
+  right:10px;
+  
+  box-shadow:inset 0px 8px 16px 0px rgba(42, 42, 42, 0.489);
+}
+.jdw-nav::selection .jdw-nav-toggle{
+  display:block;
+}
 /*
 main
 */
@@ -77,4 +105,9 @@ footer{
 .bg-body-dark{
   background-color: black;
   color: white;
+}
+
+.fs-01{
+  font-size: 60px;
+  
 }
