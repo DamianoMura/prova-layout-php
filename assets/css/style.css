@@ -1,0 +1,25 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+  position: relative;
+  background-color: blanchedalmond;
+}
+
+/*header*/
+header{
+  background-image: -webkit-linear-gradient(rgb(143, 143, 143),white, rgba(255, 255, 255, 0));
+  height:10vh
+}
+
+.logo{
+  height:10vh;
+ 
+}
+
+.logo img{
+  height:100%;
+}
