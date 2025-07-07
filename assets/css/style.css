@@ -9,10 +9,15 @@ body{
   background-color: blanchedalmond;
 }
 
-/*header*/
+/*
+header
+*/
 header{
-  background-image: -webkit-linear-gradient(rgb(143, 143, 143),white, rgba(255, 255, 255, 0));
-  height:10vh
+  background-image: -webkit-linear-gradient(rgb(143, 143, 143), white, rgba(255, 255, 255, 0.877), rgba(255, 255, 255, 0.723));
+  height:10vh;
+  position:absolute;
+  top:0;
+  width:100vw;
 }
 
 .logo{
@@ -22,4 +27,29 @@ header{
 
 .logo img{
   height:100%;
+}
+
+/*
+main
+*/
+
+main{
+  overflow-y: auto;
+  height:100vh;
+  
+}
+
+
+/*
+footer
+*/
+
+footer{
+  height:10vh;
+  display: flex;
+  flex-direction: column-reverse;
+  background-image: -webkit-linear-gradient( rgba(255, 255, 255, 0.265),rgba(255, 255, 255, 0.543),white, rgb(143, 143, 143));
+  position: absolute;
+  bottom:0;
+  width:100vw;
 }
