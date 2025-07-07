@@ -16,9 +16,10 @@ header
 
 header{
   width:100vw;
-  height:10vh;
+  height:80px;
   position: absolute;
   top: 0;
+  z-index: 2;
 }
 
 header.transparent-gradient{
@@ -53,8 +54,8 @@ header.transparent-gradient{
 main
 */
 main{ 
-  height:100vh;
-  padding : 10vh 5px;
+  height:calc(100vh);
+  padding : 80px 5px;
   overflow-y: auto;
 }
 
@@ -63,7 +64,7 @@ footer
 */
 
 footer{
-  height:10vh;
+  height:80px;
   width:100vw;
   display: flex;
   padding:3px;
