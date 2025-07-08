@@ -1,14 +1,27 @@
 <?php
-echo "<header>";
-include "resources/layout/header.html";
-echo "</header>";
-echo "<main>";
-// include "resources/views/index.php";
+include realpath($_SERVER["DOCUMENT_ROOT"]) . "\\pageHandler.php";
+$path = 'index';
 
-echo "</main>";
+?>
+<header>
+  <?php
 
+  URLBuilder('header');
 
+  // include $path;
+  ?>
+</header>
+<main id="views">
+  <?php
 
-echo "<footer>";
-include "resources/layout/footer.html";
-echo "</footer>";
+  URLBuilder($path);
+
+  // include $path;
+  ?>
+</main>
+<footer>
+  <?php
+  URLBuilder('footer');
+
+  ?>
+</footer>
