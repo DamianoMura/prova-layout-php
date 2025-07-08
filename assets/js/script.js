@@ -1,1 +1,3 @@
-// console.log(document.getElementById("brand-img").attributes.item(0).nodeValue)
+ console.log(document)
+
+console.log(localStorage);

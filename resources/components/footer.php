@@ -1,0 +1,18 @@
+<footer>
+  <div class="bg-black d-flex justify-space-around align-items-center text-white">
+    <div class="foot-brand p-3">
+      <img src="../../assets/img/logo-jdw-white.png" alt id="brand-img">
+      <span id="brand-name">JDWdev.it</span>
+      <p class="fs-06">sito interamente sviluppato a mano<br> senza alcun
+        framework</p>
+    </div>
+    <div class="host">
+      <span id="brand-name">hosted By</span>
+      <a href="https://www.aruba.it" target="blank">
+        <img
+          src="../../assets/img/aruba.svg" alt id="logo-aruba">
+      </a>
+      <p class="fs-06">piano Linux Advanced</p>
+    </div>
+  </div>
+</footer>
