@@ -1,1 +1,7 @@
-// console.log(document.getElementById("brand-img").attributes.item(0).nodeValue)
+ console.log(document.getElementsByTagName("main").item(0).innerHTML)
+
+ 
+
+
+
+
