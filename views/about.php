@@ -2,12 +2,56 @@
   <div class="row">
     <div class="col-12">
       <div class="text-center py-2">
+
         <h2>about</h2>
+
+        <div class="accordion" id="accordionAbout">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                cosa rappresenta questo sito?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionAbout">
+              <div class="accordion-body">
+                questo sito è stato realizzato senza framework esistenti ed è solo a scopo illustrativo del mio cammino di apprendimento nel web coding e verrà utilizzato come sito vetrina dove mostro tutto ciò che sò fare caricandone i progetti e linkando la mia repo in ogni progetto, compreso <a href="https://github.com/DamianoMura/prova-layout-php" target="_blank">questo</a>.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                come l'ho sviluppato?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionAbout">
+              <div class="accordion-body">
+                <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionAbout">
+              <div class="accordion-body">
+                <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
         <h3 class=text-danger>
           cosa rappresenta questo sito?
         </h3>
         <p>
-          questo sito è stato realizzato senza framework esistenti ed è solo a scopo illustrativo del mio cammino di apprendimento nel web coding e verrà utilizzato come sito vetrina dove mostro tutto ciò che sò fare caricandone i progetti e linkando la mia repo in ogni progetto, compreso <a href=""></a>.
+
           <br>
         </p>
         <h3 class=text-danger>
