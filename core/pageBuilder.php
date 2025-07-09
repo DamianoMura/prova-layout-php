@@ -4,38 +4,43 @@
 function view($url)
 {
 
-  include $_SERVER["DOCUMENT_ROOT"]."/views/" . $url . ".php";
+  include $_SERVER["DOCUMENT_ROOT"] . "/views/" . $url . ".php";
 }
 
 if (isset($_GET['view'])) {
-  if (function_exists($_GET['action'])) {
-    $_GET['action']($_GET['view']);
+
+
+  $pageFound = false;
+  if (is_dir($_SERVER["DOCUMENT_ROOT"] . "/views")) {
+    if ($dh = opendir($_SERVER["DOCUMENT_ROOT"] . "/views")) {
+      while (($file = readdir($dh)) !== false) {
+        if ($file !== "." && $file !== "..") {
+          $exploded = explode(".", $file);
+          if (sizeof($exploded) > 1)
+            if ($exploded[0] == $_GET['view'])
+              $pageFound = true;
+        }
+      }
+      if ($pageFound == true)
+        include $_SERVER["DOCUMENT_ROOT"] . "/views/" . $_GET['view'] . ".php";
+      else
+        include $_SERVER["DOCUMENT_ROOT"] . "/views/error.php";
+      closedir($dh);
+    }
   }
 } else {
 
-  include  $_SERVER["DOCUMENT_ROOT"]."/views/home.php";
+  include  $_SERVER["DOCUMENT_ROOT"] . "/views/home.php";
   //findDir();
 }
 // echo file_get_contents($url);
 function findDir()
 {
 
-  $arrFiles = array();
-  $dirPath = "/views";
-  $fullPath = $_SERVER["DOCUMENT_ROOT"]. $dirPath;
 
 
   // Open a directory, and read its contents
-  if (is_dir($fullPath)) {
-    if ($dh = opendir($fullPath)) {
-      while (($file = readdir($dh)) !== false) {
-        echo "filename:" . $file . "<br>";
-        $arrFiles[sizeof($arrFiles)] = $file;
-        echo  $arrFiles[sizeof($arrFiles) - 1] . "<br> ";
-      }
-      closedir($dh);
-    }
-  }
+
 
 
 

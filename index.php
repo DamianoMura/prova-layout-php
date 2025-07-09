@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
   <meta charset="UTF-8">
@@ -67,7 +67,7 @@
 
 
   <main>
-    <?php include $_SERVER["DOCUMENT_ROOT"]."/core/pageBuilder.php"; ?>
+    <?php include $_SERVER["DOCUMENT_ROOT"] . "/core/pageBuilder.php"; ?>
   </main>
 
   <footer>
