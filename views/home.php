@@ -7,17 +7,17 @@
 
             <div class="col-12">
               <h1>JDWdev.it</h1>
-              <h3>
+              <span>
                 <\per codex ad astram>
-              </h3>
+              </span>
             </div>
 
-            <div class="col-12 col-md-6 py-5">
+            <div class="col-12 py-2">
               <img src="../assets/img/logo-jdw-trans-black.png" alt="" id="main-logo">
 
             </div>
 
-            <div class="col-12 col-md-6 d-flex flex-md-column justify-content-center align-items-center py-3 ">
+            <div class="col-12 d-flex flex-column justify-content-center align-items-center py-3 ">
               <div class="d-flex align-items-center flex-column">
                 <h2>John Demian Walls Dev</h2>
                 <span class="text-primary">created by Damiano Mura</span>

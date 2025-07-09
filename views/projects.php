@@ -1,1 +1,4 @@
-<h1>projects</h1>
+<div class="container text-center">
+  <h2>projects</h2>
+  
+</div>

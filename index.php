@@ -18,7 +18,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
       <div class="container-fluid">
         <a class="navbar-brand" href="?action=view&view=home">
           <div class="jdw-nav-brand">
@@ -67,7 +67,7 @@
 
 
   <main>
-    <?php include "core\pageBuilder.php"; ?>
+    <?php include $_SERVER["DOCUMENT_ROOT"]."/core/pageBuilder.php"; ?>
   </main>
 
   <footer>
@@ -78,11 +78,12 @@
         <div class="col-6">
           <div class="container">
             <div class="row">
-              <div class="col-12 d-flex align-items-center"><img src="../../assets/img/logo-jdw-white.png" alt id="brand-img">
-                <span id="brand-name">JDWdev.it</span>
+              <div class="col-12 d-flex align-items-center justify-content-center">
+                <img src="../../assets/img/logo-jdw-white.png" alt id="footer-brand-img">
+                <span class="ms-3">JDWdev.it</span>
               </div>
 
-              <div class="col-12">
+              <div class="col-12 text-center">
                 <span>
                   <\per codex ad astram>
                 </span>
@@ -95,7 +96,7 @@
           <div class="container">
             <div class="row">
               <div class="col-12 d-flex flex-column align-items-center">
-                <span id="brand-name">hosted By</span>
+                <span>hosted By</span>
                 <a href="https://www.aruba.it" target="blank">
                   <img
                     src="../../assets/img/aruba.svg" alt id="logo-aruba">

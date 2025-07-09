@@ -7,7 +7,6 @@
 
 body{
   position: relative;
-  background-color: azure;
 }
 
 /*
@@ -43,13 +42,13 @@ header.transparent-gradient{
 main
 */
 main{ 
-  height:calc(100vh);
+  height:100vh;
   padding : 80px 5px;
   overflow-y: auto;
 }
 
 #main-logo{
-  width:300px;
+  height:150px;
 }
 /*
 footer
@@ -64,24 +63,15 @@ footer{
   bottom:0;
 }
 
-#brand-img{
-  height:30px;
+#footer-brand-img{
+  height:20px;
 }
 /*utility*/
-.bg-body-dark{
-  background-color: black;
-  color: white;
-}
 
-.fs-01{
-  font-size: 60px;
-  
-}
-.fs-06{
-  font-size: 12px;
-  
-}
+
 #logo-aruba{
-  width:60px;
+  height:15px;
 }
-
+footer span{
+  font-size: 0.5rem;
+}

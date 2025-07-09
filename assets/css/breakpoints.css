@@ -1,4 +1,4 @@
-@media screen and (min-width:993px) and (min-height:1400px){
+@media screen and (min-width:800px) and (min-height:1400px){
  main{
   padding:146px 0;
  }
@@ -25,13 +25,37 @@
  h3{
   font-size: 4rem;
  }
+ h4{
+  font-size: 3rem;
+ }
+ h5{
+  font-size: 2rem;
+ }
+ h6{
+  font-size: 1rem;
+ }
  #main-logo{
-  width:500px;
+  height:700px;
  }
  #logo-aruba {
-   width: 270px;
+   height: 50px;
  }
  span{
   font-size: 2rem;
  }
-}
+ p{
+  font-size: 2rem;
+ }
+ footer span {
+   font-size: 2rem;
+ }
+ #footer-brand-img {
+   height: 60px;
+ }
+ 
+ main{
+    height:93vh;
+     
+ }
+ 
+ }
