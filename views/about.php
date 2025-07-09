@@ -33,7 +33,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed fs-4 text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Accordion Item #3
+                come l'ho sviluppato?
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionAbout">
@@ -47,24 +47,6 @@
             </div>
           </div>
         </div>
-
-
-
-
-        <h3 class=text-danger>
-          cosa rappresenta questo sito?
-        </h3>
-        <p>
-
-          <br>
-        </p>
-        <h3 class=text-danger>
-          come l'ho sviluppato?
-        </h3>
-        <p>
-
-
-        </p>
       </div>
     </div>
   </div>
