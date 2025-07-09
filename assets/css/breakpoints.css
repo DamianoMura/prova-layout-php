@@ -1,0 +1,37 @@
+@media screen and (min-width:993px) and (min-height:1400px){
+ main{
+  padding:146px 0;
+ }
+  #brand-img{
+  height:120px;
+  margin-right: 10px;
+ }
+ #brand-name {
+   font-size: 3rem;
+   margin-right: 10px;
+  }
+  .nav-link{ 
+    font-size: 3rem;
+  }
+  .foot-brand #brand-img {
+    height: 80px; 
+  }
+ h1{
+  font-size: 8rem;
+ }
+ h2{
+  font-size: 6rem;
+ }
+ h3{
+  font-size: 4rem;
+ }
+ #main-logo{
+  width:500px;
+ }
+ #logo-aruba {
+   width: 270px;
+ }
+ span{
+  font-size: 2rem;
+ }
+}

@@ -7,8 +7,8 @@
           cosa rappresenta questo sito?
         </h5>
         <p class=px-5>
-          questo sito è stato realizzato senza framework esistenti ed è solo a scopo illustrativo del mio cammino di apprendimento nel web coding.
-
+          questo sito è stato realizzato senza framework esistenti ed è solo a scopo illustrativo del mio cammino di apprendimento nel web coding e verrà utilizzato come sito vetrina dove mostro tutto ciò che sò fare caricandone i progetti e linkando la mia repo in ogni progetto, compreso <a href=""></a>.
+          <br>
         </p>
         <h5 class=text-danger>
           come l'ho sviluppato?

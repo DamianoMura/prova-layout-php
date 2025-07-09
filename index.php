@@ -13,6 +13,7 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/breakpoints.css">
 </head>
 
 <body>
@@ -70,21 +71,48 @@
   </main>
 
   <footer>
-    <div class="bg-black d-flex justify-space-around align-items-center text-white">
-      <div class="foot-brand p-3">
-        <img src="../../assets/img/logo-jdw-white.png" alt id="brand-img">
-        <span id="brand-name">JDWdev.it</span>
-        <p class="fs-06">sito interamente sviluppato a mano<br> senza alcun
-          framework</p>
+    <div class="bg-black d-flex justify-space-around align-items-center text-white me-5 p-3 w-100">
+
+      <div class="row align-items-center justify ">
+
+        <div class="col-6">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 d-flex align-items-center"><img src="../../assets/img/logo-jdw-white.png" alt id="brand-img">
+                <span id="brand-name">JDWdev.it</span>
+              </div>
+
+              <div class="col-12">
+                <span>
+                  <\per codex ad astram>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 d-flex flex-column align-items-center">
+                <span id="brand-name">hosted By</span>
+                <a href="https://www.aruba.it" target="blank">
+                  <img
+                    src="../../assets/img/aruba.svg" alt id="logo-aruba">
+                </a>
+                <span>piano Linux Advanced</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
       </div>
-      <div class="host">
-        <span id="brand-name">hosted By</span>
-        <a href="https://www.aruba.it" target="blank">
-          <img
-            src="../../assets/img/aruba.svg" alt id="logo-aruba">
-        </a>
-        <p class="fs-06">piano Linux Advanced</p>
-      </div>
+
+
+
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
